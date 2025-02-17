@@ -4,7 +4,7 @@ Bu modül, PrestaShop 1.7 e-ticaret platformu için MNG Kargo entegrasyonu sağl
 
 ## 🚀 Özellikler
 
-- MNG Kargo API entegrasyonu (Sandbox ve Production ortamları desteklenir)
+- MNG Kargo API entegrasyonu (Test ve Canlı ortamları desteklenir)
 - Otomatik gönderi oluşturma ve yönetimi
 - Kargo takip numarası sorgulama ve takip
 - Kargo etiketi oluşturma ve yazdırma
@@ -77,15 +77,15 @@ mngkargo/
 ### API Entegrasyonu
 MNG Kargo API'si ile entegrasyon `MNGKargoAPI` sınıfı üzerinden yapılmaktadır. API endpoint'leri:
 
-- Sandbox: `https://sandbox.mngkargo.com.tr/tswIntegration/services/tswIntegrationService`
+- Test: `https://test-api.mngkargo.com.tr/tswIntegration/services/tswIntegrationService`
 - Production: `https://api.mngkargo.com.tr/tswIntegration/services/tswIntegrationService`
 
 ## 🤝 Katkıda Bulunma
 
 1. Bu repository'yi fork edin
-2. Feature branch'i oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add some amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+2. Feature branch'i oluşturun
+3. Değişikliklerinizi commit edin
+4. Branch'inizi push edin
 5. Pull Request oluşturun
 
 ## 📝 Lisans
