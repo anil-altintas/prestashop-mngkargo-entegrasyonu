@@ -1,0 +1,29 @@
+{
+    "name": "prestashop/mngkargo",
+    "description": "PrestaShop için MNG Kargo entegrasyon modülü",
+    "type": "prestashop-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BarkodPOS",
+            "email": "info@barkodsatis.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\MNGKargo\\": "src/"
+        },
+        "classmap": [
+            "mngkargo.php",
+            "classes/"
+        ]
+    },
+    "minimum-stability": "stable"
+} 

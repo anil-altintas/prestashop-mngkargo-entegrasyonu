@@ -1,0 +1,33 @@
+# IDE ve Editör dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+composer.lock
+
+# PrestaShop özel dosyaları
+config*.xml
+config_*.xml
+
+# Log dosyaları
+*.log
+
+# Geçici dosyalar
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Derleme dosyaları
+*.phar
+*.zip
+
+# Test dosyaları
+/tests/coverage/ 
